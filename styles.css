@@ -1,0 +1,191 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Cambia 'Roboto' por la fuente que elijas */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+/* Estilos para la sección de proyectos */
+#projects {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.project {
+    text-align: center;
+    width: calc(33.33% - 30px);
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.project .image {
+    margin-bottom: 15px;
+}
+
+.project .image img {
+    max-width: 100%;
+    border-radius: 5px; /* Opcional: Aplica bordes redondeados a las imágenes */
+}
+
+.project .icon {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1em;
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 10px 0;
+    background-color: #555;
+}
+
+footer p {
+    margin: 0;
+}
+.about-image {
+    text-align: center; /* Centra la imagen horizontalmente */
+    margin-top: 20px; /* Espacio superior */
+}
+
+.about-image img {
+    width: 300px; /* Ancho deseado de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    border-radius: 50%; /* Redondea los bordes para una imagen circular, si deseas */
+    border: 5px solid #333; /* Borde oscuro */
+}
+/* Fuente principal para el título de sección */
+.section-title {
+    font-family: 'Montserrat', sans-serif; /* Ejemplo de fuente de Google Fonts */
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333; /* Color oscuro */
+    text-transform: uppercase; /* Convertir texto en mayúsculas */
+}
+
+.section-title:before,
+.section-title:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+    height: 2px;
+    background-color: #000000; /* Color oscuro */
+    margin: 0 10px;
+}
+
+.section-title:before {
+    margin-right: 20px;
+}
+
+.section-title:after {
+    margin-left: 20px;
+}
+
+/* Estilos para la sección de habilidades */
+#skills {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.skill {
+    text-align: center;
+    width: calc(33.33% - 30px);
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.skill .icon {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.skill h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif; /* Aplica la fuente personalizada */
+    font-weight: 700; /* Ajusta el peso de la fuente si es necesario */
+}
+
+.skill p {
+    font-size: 1em;
+    color: #666;
+}
